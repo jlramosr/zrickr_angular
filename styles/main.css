@@ -1,0 +1,9 @@
+.list .edited label:after {
+  content: "EDITED";
+  color: #a7b9c4;
+}
+
+.list .completed label {
+  color: #a7b9c4;
+  text-decoration: line-through;
+}

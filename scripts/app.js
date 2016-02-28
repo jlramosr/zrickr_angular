@@ -1,1 +1,1 @@
-angular.module("zrickrApp");
+angular.module("zrickrApp", []);

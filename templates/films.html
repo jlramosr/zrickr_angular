@@ -1,0 +1,15 @@
+<div class='list'>
+  <div class='add'>
+    <a href='' ng-click='addFilm();'>+ Add a New Film</a>
+    <a href='' ng-click='saveFilms(films);'>* Save All Changes</a>
+  </div>
+  <div ng-repeat="film in films | orderBy: 'completed'" ng-init='film.completed = false;' ng-class="{'edited': film.edited, 'completed': film.completed}">
+    <input ng-model='film.completed' type='checkbox'/>
+    <label ng-click='editing = true;' ng-hide='editing' class='editing-label'>{{film.title}}</label>
+    <input ng-change='film.edited = true;' ng-blur='editing = false;' ng-show='editing' ng-model='film.title' class='editing-label' type='text'/>
+    <div class='actions'>
+      <a href='' ng-click='editing = !editing;'>edit</a>
+      <a href='' ng-click='deleteFilm(film, $index);' class='delete'>delete</a>
+    </div>
+  </div>
+</div>

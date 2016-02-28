@@ -1,4 +1,4 @@
-# Zrickr Backend
+# Zrickr Frontend
 
 Zrickr Fontend using AngularJS to organizate films, series, books, etc.
 
