@@ -10,8 +10,16 @@ Download and install Cmder for console commands (http://cmder.net/)
 
 Download and install Atom for edit files (https://atom.io/)
 
+###Nodejs,nvm and npm
+
+Download and install nodejs and npm (https://nodejs.org/en/download/)
+
+Download and install nvm (https://github.com/coreybutler/nvm-windows/releases)
+
+Install http-server `npm install -g http-server`
+
 ## Proyect Installation
 
-git clone https://github.com/jlramosr/zrickr.git zrickr
+`git clone https://github.com/jlramosr/zrickr.git zrickr`
 
-cd zrickr
+`http-server zrickr`
