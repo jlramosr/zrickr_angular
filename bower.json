@@ -1,0 +1,23 @@
+{
+  "name": "Zrickr",
+  "homepage": "https://github.com/jlramosr/zrickr",
+  "authors": [
+    "jlramosr <jlramosr@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.2.18",
+    "satellizer": "^0.14.0",
+    "angular": "^1.5.0"
+  }
+}

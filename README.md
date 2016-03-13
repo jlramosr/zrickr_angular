@@ -18,8 +18,14 @@ Download and install nvm (https://github.com/coreybutler/nvm-windows/releases)
 
 Install http-server `npm install -g http-server`
 
+### Bower
+
+`npm install -g bower`
+
 ## Proyect Installation
 
 `git clone https://github.com/jlramosr/zrickr.git zrickr`
+
+`cd zrickr && bower install`
 
 `http-server zrickr`
